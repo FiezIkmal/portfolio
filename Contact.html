@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affizudin Ikmal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navigation-bar">
+        <a href="Portfolio.html" class="navigation-item">
+            <img src="user.png" alt="User Profile">
+            <span>Profile</span>
+            <a href="Resume.html" class="navigation-item">
+                <img src="resume.png" alt="Resume logo">
+                <span>Resume</span>
+            </a>
+            <a href="Contact.html" class="navigation-item">
+                <img src="email.png" alt="Resume logo">
+                <span>Contact</span>
+            </a>
+            <a>
+            <a href="https://www.linkedin.com/in/affizudin/" class="navigation-item">
+                <img src="https://zakschenck.github.io/portfolio-website/img/icons8-linkedin-100.png" alt="LinkedIn Logo">
+                <span>LinkedIn</span>
+        </a>
+        <a>
+            <a href="https://github.com/FiezIkmal" class="navigation-item">
+                <img src="https://zakschenck.github.io/portfolio-website/img/icons8-github-48.png" alt="GitHub Logo">
+                <span>GitHub</span>
+        </a>
+    </header>
+    <main class="main-content">
+        <section class="hero">
+            <h1>Contact Me</h1>
+            <form action="send_email.php" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Find Me On</p>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/affizudin/" class="footer-icon">
+                <img src="https://zakschenck.github.io/portfolio-website/img/icons8-linkedin-100.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/FiezIkmal" class="footer-icon">
+                <img src="https://zakschenck.github.io/portfolio-website/img/icons8-github-48.png" alt="GitHub Logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
